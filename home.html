@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230616214258">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230617114838">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,11 +24,11 @@
 						<div class="item-left__menu menu">
 							<nav class="menu__body">
 								<ul class="menu__list">
-									<li class="menu__item"><a href="" class="menu__link" target="_blank">About Us</a></li>
-									<li class="menu__item"><a href="" class="menu__link" target="_blank">Services</a></li>
-									<li class="menu__item"><a href="" class="menu__link" target="_blank">Work</a></li>
-									<li class="menu__item"><a href="" class="menu__link" target="_blank">News</a></li>
-									<li class="menu__item"><a href="" class="menu__link" target="_blank">Contacts</a></li>
+									<li class="menu__item"><a href="/" class="menu__link" target="_blank">About Us</a></li>
+									<li class="menu__item"><a href="/" class="menu__link" target="_blank">Services</a></li>
+									<li class="menu__item"><a href="/" class="menu__link" target="_blank">Work</a></li>
+									<li class="menu__item"><a href="/" class="menu__link" target="_blank">News</a></li>
+									<li class="menu__item"><a href="/" class="menu__link" target="_blank">Contacts</a></li>
 								</ul>
 							</nav>
 						</div>
@@ -50,7 +50,7 @@
 							</div>
 						</li>
 					</ul>
-					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<button type="button" class="menu__icon icon-menu" aria-label="menu-burger"><span></span></button>
 				</div>
 			</div>
 		</header>
@@ -99,7 +99,7 @@
 						<p class="block-title__subtitle subtitle-regular">We are rightfully considered to be the best construction company in the USA.</p>
 					</div>
 					<div class="block-video__wrapper-video">
-						<picture><source data-srcset="files/vid.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="files/vid.png" class="block-video__vidos" img></picture>
+						<picture><source data-srcset="img/files/vid.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/files/vid.png" class="block-video__vidos" alt="image" img></picture>
 						<div class="block-video__btn-ause btn-video"></div>
 						<div class="block-video__btn-play btn-video _icon-polygon"></div>
 						<div class="block-video__btn-mute _icon-mute"></div>
@@ -137,26 +137,26 @@
 					<div class="ask-us__wrapper">
 						<h4 class="ask-us__title heading heading_small">Want to know more? Ask us a question:</h4>
 						<form class="ask-us__form" action="№">
-							<label class="ask-us__label label">Name
+							<div class="ask-us__label label">Name
 								<input required data-required data-validate autocomplete="off" type="text" name="form[]" data-error="Please enter your name" placeholder="Your name" class="input input_big-placeholder">
 								<div class="danger _icon-danger"></div>
 								<div class="success _icon-check"></div>
 								<p class="success-txt">Looks good!</p>
-							</label>
+							</div>
 
-							<label class="ask-us__label label">Phone
+							<div class="ask-us__label label">Phone
 								<input required data-required data-validate autocomplete="off" type="tel" name="form[]" data-error="Please enter your phone" placeholder="Your phone" class="input input_big-placeholder">
 								<div class="danger _icon-danger"></div>
 								<div class="success _icon-check"></div>
 								<p class="success-txt">Looks good!</p>
-							</label>
+							</div>
 
-							<label class="ask-us__label label ask-us__label_big">Message
+							<div class="ask-us__label label ask-us__label_big">Message
 								<input required data-required data-validate autocomplete="off" type="text" name="form[]" data-error="Please enter your message" placeholder="Your message" class="input input_big-placeholder">
 								<div class="danger _icon-danger"></div>
 								<div class="success _icon-check"></div>
 								<p class="success-txt">Looks good!</p>
-							</label>
+							</div>
 							<button type="submit" class="ask-us__btn orange-btn orange-btn_regular">Send</button>
 						</form>
 					</div>
@@ -472,7 +472,7 @@
 												<a href="#" class="card-news__link-category-news">Company News</a>
 											</li>
 											<li class="card-news__item-breadcrumbs">
-												<time datetime="2019-12-1">December 1, 2019</time>
+												<time datetime="2019-12-01">December 1, 2019</time>
 											</li>
 											<li class="card-news__item-breadcrumbs">
 												<a href="#" class="card-news__link-coments _icon-chat">No comments</a>
@@ -494,32 +494,32 @@
 				<div class="aplication__container">
 					<form action="#" class="aplication__form form-aplication">
 						<h4 class="form-aplication__title heading heading_small">A quick way to discuss details</h4>
-						<label class="form-aplication__label label">Name*
+						<div class="form-aplication__label label">Name*
 							<input required data-required data-validate autocomplete="off" type="text" name="form[]" data-error="Please enter your name" placeholder="Your name" class="input ">
 							<div class="danger _icon-danger"></div>
 							<div class="success _icon-check"></div>
 							<p class="success-txt">Looks good!</p>
-						</label>
+						</div>
 
-						<label class="form-aplication__label label">Phone*
+						<div class="form-aplication__label label">Phone*
 							<input required data-required data-validate autocomplete="off" type="tel" name="form[]" data-error="Please enter your phone" placeholder="Your phone" class="input ">
 							<div class="danger _icon-danger"></div>
 							<div class="success _icon-check"></div>
 							<p class="success-txt">Looks good!</p>
-						</label>
+						</div>
 
-						<label class="form-aplication__label label">Email
+						<div class="form-aplication__label label">Email
 							<input required data-required="email" data-validate autocomplete="off" type="email" name="form[]" data-error="Please enter your email" placeholder="Your message" class="input">
 							<div class="danger _icon-danger"></div>
 							<div class="success _icon-check"></div>
 							<p class="success-txt">Looks good!</p>
-						</label>
-						<label class="form-aplication__label label">Message*
-							<textarea required data-required data-validate autocomplete="off" type="text" name="form[]" data-error="Please enter your message" placeholder="Your message" class="input"></textarea>
+						</div>
+						<div class="form-aplication__label label">Message*
+							<textarea required data-required data-validate autocomplete="off" name="form[]" data-error="Please enter your message" placeholder="Your message" class="input"></textarea>
 							<div class="danger _icon-danger"></div>
 							<div class="success _icon-check"></div>
 							<p class="success-txt">Looks good!</p>
-						</label>
+						</div>
 						<div class="form-aplication__checkbox checkbox">
 							<input id="c_1" data-error="Ошибка" class="checkbox__input" type="checkbox" name="form[]">
 							<label for="c_1" class="checkbox__label"><span class="checkbox__text">I agree to receive communications from Createx Construction Bureau.</span></label>
@@ -541,7 +541,7 @@
 						</a>
 						<ul class="row-top-footer__social-media media-social">
 							<li class="media-social__item"><a href="#" class="media-social__link _icon-WhatsApp" aria-label="link whatsapp"></a></li>
-							<li class="media-social__item"><a href="#" class="media-social__link _icon-chat-social"></a></li>
+							<li class="media-social__item"><a href="#" class="media-social__link _icon-chat-social" aria-label="link discord"></a></li>
 							<li class="media-social__item"><a href="#" class="media-social__link _icon-fb" aria-label="link facebook"></a></li>
 							<li class="media-social__item"><a href="#" class="media-social__link _icon-twitter" aria-label="link twitter"></a></li>
 							<li class="media-social__item"><a href="#" class="media-social__link _icon-youtube" aria-label="link youtube"></a></li>
@@ -550,10 +550,10 @@
 					</div>
 					<div class="row-top-footer__right-item">
 						<h5 class="row-top-footer__title">Let’s stay in touch</h5>
-						<form action="" class="row-top-footer__form subscribe-form">
-							<label class="row-top-footer__label label">
-								<input required data-required="email" data-validate autocomplete="off" type="email" name="form[]" data-error="Please enter email" placeholder="Your email address " class="row-top-footer__input input">
-							</label>
+						<form action="#" class="row-top-footer__form subscribe-form">
+							<div class="row-top-footer__label label">
+								<input required data-required="email" data-validate autocomplete="off" type="email" name="form[]" data-error="Please enter your email" placeholder="Your message" class="input">
+							</div>
 							<button type="submit" class="row-top-footer__button orange-btn">subscribe</button>
 						</form>
 						<p class="row-top-footer__txt row-top-footer__txt_small">Createx Construction Bureau has been successfully operating in the USA construction market since 2000. We are proud to offer you quality construction and exemplary service. Our mission is to set the highest standards for construction sphere.</p>
@@ -606,7 +606,7 @@
 </div>
  -->
 
-	<script src="js/app.min.js?_v=20230616214258"></script>
+	<script src="js/app.min.js?_v=20230617114838"></script>
 </body>
 
 </html>
